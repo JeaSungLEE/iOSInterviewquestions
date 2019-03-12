@@ -32,18 +32,17 @@
 - UIWindow 객체의 역할은 무엇인가?
 - View 객체에 대해 설명하시오.
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
-- NSURLConnection 에서 사용하는 Delegate 메서드들에 대해 설명하시오.
 - TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.
 - MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
 - shallow copy와 deep copy의 차이점을 설명하시오.
 - KVO 동작 방식에 대해 설명하시오.
 - 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
 - Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.
-- In-App Purchase Product type 을 설명하시오.
 - UINavigationController 의 역할이 무엇인지 설명하시오.
 - App Bundle의 구조와 역할에 대해 설명하시오.
 - Push Notification 방식에 대해 설명하시오.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
+- NSURLConnection 에서 사용하는 Delegate 메서드들에 대해 설명하시오.
 - Synchronous 방식과 Asynchronous 방식으로 URL Connection을 처리할 경우의 장단점을 비교하시오.
 - Plist 파일 구조와 Plist 파일에 저장된 데이터를 다루기 적합한 클래스를 설명하시오.
 - Core Data와 Sqlite 같은 데이터 베이스의 차이점을 설명하시오.
@@ -51,6 +50,7 @@
 - XML Parser를 사용하려면 어떻게 해야 하는지 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - DOM 방식과 SAX 방식 XML Parser의 차이점을 설명하고 iOS XML Parser는 어떤 방식인지 설명하시오.
+- In-App Purchase Product type 을 설명하시오.
 
 ## Swift
 
