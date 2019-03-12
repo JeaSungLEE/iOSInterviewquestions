@@ -11,12 +11,12 @@
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
 - iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
 - Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.
-- NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.
 - Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.
 - NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.
 - UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?
+- TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.
+- 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
 - App Bundle의 구조와 역할에 대해 설명하시오.
-
 - View 객체에 대해 설명하시오.
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
 - UIWindow 객체의 역할은 무엇인가?
@@ -26,9 +26,6 @@
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
 - 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별학 객체를 무엇이라고 하는가?
 - 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?
-
-- TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.
-- 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가?
@@ -47,6 +44,7 @@
 - MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
 
 ## Advanced
+- NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.
 - Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.
 - NSObject부터 UIButton 까지 상속 과정의 계층과 역할을 설명하시오.
 - shallow copy와 deep copy의 차이점을 설명하시오.
