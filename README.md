@@ -1,4 +1,7 @@
 # iOSInterviewquestions
+iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
+수정해야할 내용이나 추가해야할 내용은 언제든지 PR날려주세요!
+감사합니다:)
 
 ## iOS
 - Bounds 와 Frame 의 차이점을 설명하시오.
