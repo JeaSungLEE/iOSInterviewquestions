@@ -34,6 +34,8 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
 - 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별학 객체를 무엇이라고 하는가?
 - 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?
+- Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
+- App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가?
@@ -50,6 +52,12 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Delegates와 Notification 방식의 차이점에 대해 설명하시오.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
+- 프로토콜이란 무엇인지 설명하시오.
+- Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.
+- mutating 키워드에 대해 설명하시오.
+- 탈출 클로저에 대하여 설명하시오.
+- Swift의 익스텐션과 Objective-C의 카테고리에 대해 설명하시오.
+
 
 ## Advanced
 - NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.
@@ -77,6 +85,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. 
 - 다음 코드를 실행하면 어떤 일이 발생할까 추측해서 설명하시오.
 Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
+- 순환 참조에 대하여 설명하시오.
 
 ## Objective-C
 - Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
@@ -91,3 +100,16 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - Category 방식에 대해 설명하시오.
 - Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
 - Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
+- method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.
+
+
+## Functional Programming
+- 함수적 프로그래밍이 무엇인지 설명하시오.
+- 고차 함수가 무엇인지 설명하시오.
+- Reactive Programming이 무엇인지 설명하시오.
+- Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
+- RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
+
+
+## Architecture
+- 의존성 주입에 대하여 설명하시오.
