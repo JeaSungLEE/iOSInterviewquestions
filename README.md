@@ -15,6 +15,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Bounds 와 Frame 의 차이점을 설명하시오.
 - 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.
 - 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있고, 상태 변화에 따라 다른 동작을 처리하기 위한 델리게이트 메서드들을 설명하시오.
+- scene delegate에 대해 설명하시오.
 - 앱이 In-Active 상태가 되는 시나리오를 설명하시오.
 - NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
 - GCD API 동작 방식과 필요성에 대해 설명하시오.
@@ -39,6 +40,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?
 - Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
+- App thinning에 대해서 설명하시오.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
