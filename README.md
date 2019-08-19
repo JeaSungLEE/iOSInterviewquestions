@@ -41,6 +41,8 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 - App thinning에 대해서 설명하시오.
+- Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
+- 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
@@ -48,6 +50,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Intrinsic Size에 대해서 설명하시오.
 - 스토리보드를 이용했을때의 장단점을 설명하시오.
 - Safearea에 대해서 설명하시오.
+- Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 
 ## Swift
 - Optional 이란 무엇인지 설명하시오.
@@ -65,6 +68,8 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - mutating 키워드에 대해 설명하시오.
 - 탈출 클로저에 대하여 설명하시오.
 - Extension에 대해 설명하시오.
+- 접근 제어자의 종류엔 어떤게 있는지 설명하시오
+- Open 과 Public 의 차이가 무엇인지 설명하시오.
 
 ## ARC
 - ARC란 무엇인지 설명하시오.
