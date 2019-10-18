@@ -19,7 +19,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 앱이 In-Active 상태가 되는 시나리오를 설명하시오.
 - NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
 - GCD API 동작 방식과 필요성에 대해 설명하시오.
-- Strong 과 Weak 참조 방식에 대해 설명하시오.
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
 - iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
 - Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.
@@ -42,7 +41,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 - App thinning에 대해서 설명하시오.
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
-- 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
@@ -73,9 +71,11 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 ## ARC
 - ARC란 무엇인지 설명하시오.
 - Retain Count 방식에 대해 설명하시오.
+- Strong 과 Weak 참조 방식에 대해 설명하시오.
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
 - retain 과 assign 의 차이점을 설명하시오.
 - 순환 참조에 대하여 설명하시오.
+- 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
 - 특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.
 - Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. 
 - 다음 코드를 실행하면 어떤 일이 발생할까 추측해서 설명하시오.
