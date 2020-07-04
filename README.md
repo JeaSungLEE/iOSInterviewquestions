@@ -52,7 +52,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 
 ## Swift
 - Optional 이란 무엇인지 설명하시오.
-- Fast Enumration 이란 무엇인지 설명하시오. 
+- Fast Enumeration 이란 무엇인지 설명하시오. 
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
 - instance 메서드와 class 메서드의 차이점을 설명하시오.
 - Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
