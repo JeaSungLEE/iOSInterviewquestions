@@ -11,6 +11,10 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 # Required
 아래 내용들은 최대한 많이 공부해놓는것이 좋습니다 📝
 
++ 면접시기가 wwdc이후 (7월~10월)이라면 해당년도 wwdc세션들을 봐 두시면 매우매우매우 좋습니다.
+
+[Apple All Videos](https://developer.apple.com/videos/all-videos/)
+
 ## iOS
 - Bounds 와 Frame 의 차이점을 설명하시오.
 - 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.
