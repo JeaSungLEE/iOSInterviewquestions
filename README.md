@@ -40,7 +40,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
 - 앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
-- 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별학 객체를 무엇이라고 하는가?
+- 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?
 - 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?
 - Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
