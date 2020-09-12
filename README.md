@@ -131,6 +131,7 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - In-App Purchase Product type 을 설명하시오.
 
 ## Architecture
+- MVVM, MVC, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
 - 의존성 주입에 대하여 설명하시오.
 
 ## Rx
