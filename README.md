@@ -116,9 +116,9 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - Category 방식에 대해 설명하시오.
 - Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
 - Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
-- method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.
 
 ## Advanced
+- method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.
 - NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.
 - Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.
 - NSObject부터 UIButton 까지 상속 과정의 계층과 역할을 설명하시오.
@@ -130,10 +130,8 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - Plist 파일 구조와 Plist 파일에 저장된 데이터를 다루기 적합한 클래스를 설명하시오.
 - Core Data와 Sqlite 같은 데이터 베이스의 차이점을 설명하시오.
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
-- XML Parser를 사용하려면 어떻게 해야 하는지 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
-- DOM 방식과 SAX 방식 XML Parser의 차이점을 설명하고 iOS XML Parser는 어떤 방식인지 설명하시오.
-- In-App Purchase Product type 을 설명하시오.
+- Protocol에서는 왜 var만 되는지 설명하시요.
 
 ## Architecture
 - MVVM, MVC, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
