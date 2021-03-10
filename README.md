@@ -62,7 +62,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 
 ## Swift
 - Optional 이란 무엇인지 설명하시오.
-- Fast Enumeration 이란 무엇인지 설명하시오. 
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
 - instance 메서드와 class 메서드의 차이점을 설명하시오.
 - Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
@@ -116,6 +115,7 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - Category 방식에 대해 설명하시오.
 - Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
 - Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
+- Fast Enumeration 이란 무엇인지 설명하시오. 
 
 ## Advanced
 - method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.
