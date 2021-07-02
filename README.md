@@ -70,7 +70,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 
 ## Swift
-- struct와 class와 enum으 차이를 설명하시오.
+- struct와 class와 enum의 차이를 설명하시오.
 - class의 성능을 향상 시킬수 있는 방법들을 나열해보시오.
 - Convinience init에 대해 설명하시오.
 - Anyobject에 대해 설명하시오.
@@ -95,7 +95,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - property wrapper에 대해서 설명하시오.
 - Generic에 대해 설명하시오.
 - Result타입에 대해 설명하시오.
-- Codable에 대하여 설멍하시오.
+- Codable에 대하여 설명하시오.
 
 ## ARC
 - ARC란 무엇인지 설명하시오.
