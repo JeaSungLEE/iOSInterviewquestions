@@ -98,24 +98,14 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - 고차 함수가 무엇인지 설명하시오.
 - Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
 
+## Architecture
+- MVVM, MVC, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
+- 의존성 주입에 대하여 설명하시오.
+
 # Optional
 아래부터는 추가로 공부를 하면 좋을 내용들입니다.
 
 Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입이나 주니어기준으로 필수라고 여겨지지않기에 옵셔널에 추가하였습니다.
-
-## Objective-C
-- Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
-- dynamic과 property 의미와 차이를 설명하시오.
-- @property로 선언한 NSString* title 의 getter/setter 메서드를 구현해보시오.
-- @property에서 atomic과 nonatomic 차이점을 설명하고, 어떤것이 안전한지, 어느것이 기본인지 설명하시오.
-- @property로 선언한다는 것의 의미를 설명하고, .h에 넣을 경우와 .m에 넣을 경우 차이점을 설명하시오.
-- -performSelector:withObject:afterDelay: 메시지를 보내면 인자값의 객체는 retain되는가? 그 이유를 함께 설명하시오.
-- Objective-C 에서 캡슐화된 데이터를 접근하기 위한 방법들을 설명하시오.
-- unnamed category 방식에 대해 설명하시오.
-- Category 확장과 Subclass 확장의 차이점을 설명하시오.
-- Category 방식에 대해 설명하시오.
-- Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
-- Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
 
 ## Advanced
 - method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.
@@ -133,10 +123,20 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
 
-## Architecture
-- MVVM, MVC, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
-- 의존성 주입에 대하여 설명하시오.
-
+## Objective-C
+- Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
+- dynamic과 property 의미와 차이를 설명하시오.
+- @property로 선언한 NSString* title 의 getter/setter 메서드를 구현해보시오.
+- @property에서 atomic과 nonatomic 차이점을 설명하고, 어떤것이 안전한지, 어느것이 기본인지 설명하시오.
+- @property로 선언한다는 것의 의미를 설명하고, .h에 넣을 경우와 .m에 넣을 경우 차이점을 설명하시오.
+- -performSelector:withObject:afterDelay: 메시지를 보내면 인자값의 객체는 retain되는가? 그 이유를 함께 설명하시오.
+- Objective-C 에서 캡슐화된 데이터를 접근하기 위한 방법들을 설명하시오.
+- unnamed category 방식에 대해 설명하시오.
+- Category 확장과 Subclass 확장의 차이점을 설명하시오.
+- Category 방식에 대해 설명하시오.
+- Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
+- Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
+- 
 ## Rx
 - Reactive Programming이 무엇인지 설명하시오.
 - RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
