@@ -55,6 +55,11 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.
 - 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
 - setNeedsLayout와 setNeedsDisplay의 차이에 대해 설명하시오.
+###
+- NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.
+- URLSession에 대해서 설명하시오.
+- prepareForReuse에 대해서 설명하시오.
+- 다크모드를 지원하는 방법에 대해 설명하시오.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
@@ -67,6 +72,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 ## Swift
 - struct와 class와 enum으 차이를 설명하시오.
 - class의 성능을 향상 시킬수 있는 방법들을 나열해보시오.
+- Convinience init에 대해 설명하시오.
 - Anyobject에 대해 설명하시오.
 - Optional 이란 무엇인지 설명하시오.
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
@@ -88,6 +94,8 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
 - property wrapper에 대해서 설명하시오.
 - Generic에 대해 설명하시오.
+- Result타입에 대해 설명하시오.
+- Codable에 대하여 설멍하시오.
 
 ## ARC
 - ARC란 무엇인지 설명하시오.
