@@ -131,7 +131,6 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
-- Fast Enumeration 이란 무엇인지 설명하시오. 
 
 ## Objective-C
 - Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
@@ -141,6 +140,7 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - @property로 선언한다는 것의 의미를 설명하고, .h에 넣을 경우와 .m에 넣을 경우 차이점을 설명하시오.
 - -performSelector:withObject:afterDelay: 메시지를 보내면 인자값의 객체는 retain되는가? 그 이유를 함께 설명하시오.
 - Objective-C 에서 캡슐화된 데이터를 접근하기 위한 방법들을 설명하시오.
+- Fast Enumeration 이란 무엇인지 설명하시오. 
 - unnamed category 방식에 대해 설명하시오.
 - Category 확장과 Subclass 확장의 차이점을 설명하시오.
 - Category 방식에 대해 설명하시오.
