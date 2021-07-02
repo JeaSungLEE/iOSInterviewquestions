@@ -67,7 +67,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - class의 성능을 향상 시킬수 있는 방법들을 나열해보시오.
 - Anyobject에 대해 설명하시오.
 - Optional 이란 무엇인지 설명하시오.
-- Fast Enumeration 이란 무엇인지 설명하시오. 
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
 - Subscripts에 대해 설명하시오.
 - instance 메서드와 class 메서드의 차이점을 설명하시오.
@@ -108,6 +107,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 아래부터는 추가로 공부를 하면 좋을 내용들입니다.
 
 Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입이나 주니어기준으로 필수라고 여겨지지않기에 옵셔널에 추가하였습니다.
+
 ## MRC
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
 - retain 과 assign 의 차이점을 설명하시오.
@@ -131,6 +131,7 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
+- Fast Enumeration 이란 무엇인지 설명하시오. 
 
 ## Objective-C
 - Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
