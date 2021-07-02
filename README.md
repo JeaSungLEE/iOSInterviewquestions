@@ -51,6 +51,8 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 - App thinning에 대해서 설명하시오.
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
+- @Main에 대해서 설명하시오.
+- setNeedsLayout와 setNeedsDisplay의 차잉 대해 설명하시오.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
@@ -61,8 +63,12 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 
 ## Swift
+- struct와 class와 enum으 차이를 설명하시오.
+- class의 성능을 향상 시킬수 있는 방법들을 나열해보시오.
+- Anyobject에 대해 설명하시오.
 - Optional 이란 무엇인지 설명하시오.
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
+- Subscripts에 대해 설명하시오.
 - instance 메서드와 class 메서드의 차이점을 설명하시오.
 - Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.
@@ -78,44 +84,37 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 접근 제어자의 종류엔 어떤게 있는지 설명하시오
 - defer란 무엇인지 설명하시오.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
+- 프로퍼티래퍼에 대해서 설명하시오.
+- Generic애 대해 설명하시오.
 
 ## ARC
 - ARC란 무엇인지 설명하시오.
 - Retain Count 방식에 대해 설명하시오.
 - Strong 과 Weak 참조 방식에 대해 설명하시오.
-- ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
-- retain 과 assign 의 차이점을 설명하시오.
 - 순환 참조에 대하여 설명하시오.
 - 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
-- 특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.
-- Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. 
-- 다음 코드를 실행하면 어떤 일이 발생할까 추측해서 설명하시오.
-Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 
 ## Functional Programming
 - 함수형 프로그래밍이 무엇인지 설명하시오.
 - 고차 함수가 무엇인지 설명하시오.
 - Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
 
+## Architecture
+- MVVM, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
+- 의존성 주입에 대하여 설명하시오.
+
 # Optional
 아래부터는 추가로 공부를 하면 좋을 내용들입니다.
 
 Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입이나 주니어기준으로 필수라고 여겨지지않기에 옵셔널에 추가하였습니다.
 
-## Objective-C
-- Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
-- dynamic과 property 의미와 차이를 설명하시오.
-- @property로 선언한 NSString* title 의 getter/setter 메서드를 구현해보시오.
-- @property에서 atomic과 nonatomic 차이점을 설명하고, 어떤것이 안전한지, 어느것이 기본인지 설명하시오.
-- @property로 선언한다는 것의 의미를 설명하고, .h에 넣을 경우와 .m에 넣을 경우 차이점을 설명하시오.
-- -performSelector:withObject:afterDelay: 메시지를 보내면 인자값의 객체는 retain되는가? 그 이유를 함께 설명하시오.
-- Objective-C 에서 캡슐화된 데이터를 접근하기 위한 방법들을 설명하시오.
-- unnamed category 방식에 대해 설명하시오.
-- Category 확장과 Subclass 확장의 차이점을 설명하시오.
-- Category 방식에 대해 설명하시오.
-- Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
-- Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
-- Fast Enumeration 이란 무엇인지 설명하시오. 
+## MRC
+- ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
+- retain 과 assign 의 차이점을 설명하시오.
+- 특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.
+- Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. 
+- 다음 코드를 실행하면 어떤 일이 발생할까 추측해서 설명하시오.
+Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 
 ## Advanced
 - method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.
@@ -132,10 +131,21 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
+- Fast Enumeration 이란 무엇인지 설명하시오. 
 
-## Architecture
-- MVVM, MVC, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
-- 의존성 주입에 대하여 설명하시오.
+## Objective-C
+- Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
+- dynamic과 property 의미와 차이를 설명하시오.
+- @property로 선언한 NSString* title 의 getter/setter 메서드를 구현해보시오.
+- @property에서 atomic과 nonatomic 차이점을 설명하고, 어떤것이 안전한지, 어느것이 기본인지 설명하시오.
+- @property로 선언한다는 것의 의미를 설명하고, .h에 넣을 경우와 .m에 넣을 경우 차이점을 설명하시오.
+- -performSelector:withObject:afterDelay: 메시지를 보내면 인자값의 객체는 retain되는가? 그 이유를 함께 설명하시오.
+- Objective-C 에서 캡슐화된 데이터를 접근하기 위한 방법들을 설명하시오.
+- unnamed category 방식에 대해 설명하시오.
+- Category 확장과 Subclass 확장의 차이점을 설명하시오.
+- Category 방식에 대해 설명하시오.
+- Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
+- Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
 
 ## Rx
 - Reactive Programming이 무엇인지 설명하시오.
