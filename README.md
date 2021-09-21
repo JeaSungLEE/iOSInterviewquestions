@@ -120,6 +120,19 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 
 Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입이나 주니어기준으로 필수라고 여겨지지않기에 옵셔널에 추가하였습니다.
 
+## SwiftUI
+
+## Combine
+- PassthroughSubject에 대해서 설명하시오
+- @Published에 대해서 설명하시오
+- Anycancleable에 대해서 설명하시오
+- sink에 대해서 설명하시오
+
+## Rx
+- Reactive Programming이 무엇인지 설명하시오.
+- RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
+- Subject와 drive의 차이를 설명하시오.
+
 ## MRC
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
 - retain 과 assign 의 차이점을 설명하시오.
@@ -143,19 +156,6 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
-
-## SwiftUI
-
-## Combine
-- PassthroughSubject에 대해서 설명하시오
-- @Published에 대해서 설명하시오
-- Anycancleable에 대해서 설명하시오
-- sink에 대해서 설명하시오
-
-## Rx
-- Reactive Programming이 무엇인지 설명하시오.
-- RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
-- Subject와 drive의 차이를 설명하시오.
 
 ## Objective-C
 - Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
