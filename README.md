@@ -144,6 +144,19 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
 
+## SwiftUI
+
+## Combine
+- PassthroughSubject에 대해서 설명하시오
+- @Published에 대해서 설명하시오
+- Anycancleable에 대해서 설명하시오
+- sink에 대해서 설명하시오
+
+## Rx
+- Reactive Programming이 무엇인지 설명하시오.
+- RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
+- Subject와 drive의 차이를 설명하시오.
+
 ## Objective-C
 - Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
 - Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
@@ -159,8 +172,3 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - Category 방식에 대해 설명하시오.
 - Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
 - Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
-
-## Rx
-- Reactive Programming이 무엇인지 설명하시오.
-- RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
-- Subject와 drive의 차이를 설명하시오.
