@@ -125,7 +125,7 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 ## Combine
 - PassthroughSubject에 대해서 설명하시오
 - @Published에 대해서 설명하시오
-- Anycancleable에 대해서 설명하시오
+- AnyCancellable에 대해서 설명하시오
 - sink에 대해서 설명하시오
 
 ## Rx
