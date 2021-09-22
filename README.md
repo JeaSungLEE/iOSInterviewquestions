@@ -75,7 +75,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - struct와 class와 enum의 차이를 설명하시오.
 - class의 성능을 향상 시킬수 있는 방법들을 나열해보시오.
 - Convinience init에 대해 설명하시오.
-- Anyobject에 대해 설명하시오.
+- AnyObject에 대해 설명하시오.
 - Optional 이란 무엇인지 설명하시오.
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
 - Subscripts에 대해 설명하시오.
