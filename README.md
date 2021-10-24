@@ -129,9 +129,14 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - sink에 대해서 설명하시오
 
 ## Rx
+- 순수함수란 무엇인지 설명하시오.
 - Reactive Programming이 무엇인지 설명하시오.
+- RxSwift를 왜 사용하는지 설명하시오.
+- RxSwift의 단점을 설명하시오.
 - RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
+- Subject의 종류와 차이점에 대해 설명하시오.
 - Subject와 drive의 차이를 설명하시오.
+- Single, Completable, Maybe의 차이점에 대해 설명하고, 언제 적용하면 좋을지 설명하시오.
 
 ## MRC
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
