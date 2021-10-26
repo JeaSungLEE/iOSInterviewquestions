@@ -74,12 +74,15 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 ## Swift
 - struct와 class와 enum의 차이를 설명하시오.
 - class의 성능을 향상 시킬수 있는 방법들을 나열해보시오.
+- Copy On Write는 어떤 방식으로 동작하는지 설명하시오.
 - Convinience init에 대해 설명하시오.
 - Anyobject에 대해 설명하시오.
 - Optional 이란 무엇인지 설명하시오.
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
 - Subscripts에 대해 설명하시오.
+- String은 왜 subscript로 접근이 안되는지 설명하시오.
 - instance 메서드와 class 메서드의 차이점을 설명하시오.
+- class 메서드와 static 메서드의 차이점을 설명하시오.
 - Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - KVO 동작 방식에 대해 설명하시오.
@@ -87,11 +90,13 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
 - 프로토콜이란 무엇인지 설명하시오.
+- Protocol Oriented Programming과 Object Oriented Programming의 차이점을 설명하시오.
 - Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.
 - mutating 키워드에 대해 설명하시오.
 - 탈출 클로저에 대하여 설명하시오.
 - Extension에 대해 설명하시오.
-- 접근 제어자의 종류엔 어떤게 있는지 설명하시오
+- Extension 내부에서 함수를 override할 수 있는지 설명하시오.
+- 접근 제어자의 종류엔 어떤게 있는지 설명하시오.
 - defer란 무엇인지 설명하시오.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
 - property wrapper에 대해서 설명하시오.
@@ -129,9 +134,14 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - sink에 대해서 설명하시오
 
 ## Rx
+- 순수함수란 무엇인지 설명하시오.
 - Reactive Programming이 무엇인지 설명하시오.
+- RxSwift를 왜 사용하는지 설명하시오.
+- RxSwift의 단점을 설명하시오.
 - RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
+- Subject의 종류와 차이점에 대해 설명하시오.
 - Subject와 drive의 차이를 설명하시오.
+- Single, Completable, Maybe의 차이점에 대해 설명하고, 언제 적용하면 좋을지 설명하시오.
 
 ## MRC
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
