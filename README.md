@@ -112,6 +112,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
 
 ## Functional Programming
+- 순수함수란 무엇인지 설명하시오.
 - 함수형 프로그래밍이 무엇인지 설명하시오.
 - 고차 함수가 무엇인지 설명하시오.
 - Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
@@ -120,12 +121,9 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - MVVM, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
 - 의존성 주입에 대하여 설명하시오.
 
-# Optional
-아래부터는 추가로 공부를 하면 좋을 내용들입니다.
-
-Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입이나 주니어기준으로 필수라고 여겨지지않기에 옵셔널에 추가하였습니다.
-
 ## SwiftUI
+- @State에 대해서 설명하시오
+- 
 
 ## Combine
 - PassthroughSubject에 대해서 설명하시오
@@ -133,8 +131,12 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - AnyCancellable에 대해서 설명하시오
 - sink에 대해서 설명하시오
 
+# Optional
+아래부터는 추가로 공부를 하면 좋을 내용들입니다.
+
+Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입이나 주니어기준으로 필수라고 여겨지지않기에 옵셔널에 추가하였습니다.
+
 ## Rx
-- 순수함수란 무엇인지 설명하시오.
 - Reactive Programming이 무엇인지 설명하시오.
 - RxSwift를 왜 사용하는지 설명하시오.
 - RxSwift의 단점을 설명하시오.
