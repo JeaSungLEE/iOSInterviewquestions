@@ -101,6 +101,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
 - property wrapper에 대해서 설명하시오.
 - Generic에 대해 설명하시오.
+- some 키워드에 대해 설명하시오.
 - Result타입에 대해 설명하시오.
 - Codable에 대하여 설명하시오.
 
@@ -118,18 +119,18 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
 
 ## Architecture
-- MVVM, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
+- MVVM, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
 - 의존성 주입에 대하여 설명하시오.
 
 ## SwiftUI
-- @State에 대해서 설명하시오
-- 
+- @State에 대해서 설명하시오.
 
 ## Combine
 - PassthroughSubject에 대해서 설명하시오
 - @Published에 대해서 설명하시오
 - AnyCancellable에 대해서 설명하시오
 - sink에 대해서 설명하시오
+- throttle과 debounce의 차이점을 설명하시오.
 
 # Optional
 아래부터는 추가로 공부를 하면 좋을 내용들입니다.
@@ -168,6 +169,8 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
+- DispatchQueue.main.sync를 사용하는 상황을 설명하시오.
+- Run Loops에 대해 설명하시오.
 
 ## Objective-C
 - Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
