@@ -143,7 +143,7 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - RxSwift의 단점을 설명하시오.
 - RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
 - Subject의 종류와 차이점에 대해 설명하시오.
-- Subject와 drive의 차이를 설명하시오.
+- Subject와 Driver 차이를 설명하시오.
 - Single, Completable, Maybe의 차이점에 대해 설명하고, 언제 적용하면 좋을지 설명하시오.
 
 ## MRC
