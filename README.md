@@ -26,6 +26,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?
 - 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?
 - App thinning에 대해서 설명하시오.
+- Data를 Binding 하는 방법에 대해서 설명하시오.
 ###
 - 앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?
 - @Main에 대해서 설명하시오.
@@ -55,6 +56,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.
 - 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
 - setNeedsLayout와 setNeedsDisplay의 차이에 대해 설명하시오.
+- stackView의 장점과 단점에 대해서 설명하시오.
 ###
 - NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.
 - URLSession에 대해서 설명하시오.
