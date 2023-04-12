@@ -74,6 +74,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Safearea에 대해서 설명하시오.
 - Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 - Auto Layout과 Frame-based Layout의 차이점은 무엇인가요?
+- 성능 향상을 위해 어떤 디버깅 도구를 사용할 수 있나요? 각각의 디버깅 도구는 어떤 상황에서 사용하는 것이 좋나요?
 
 ## Swift
 - struct와 class와 enum의 차이를 설명하시오.
