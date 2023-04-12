@@ -50,6 +50,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
 - View 객체에 대해 설명하시오.
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
+- iOS에서 뷰(View)와 레이어(Layer)의 개념과 차이점에 대해 설명해보세요.
 - UIWindow 객체의 역할은 무엇인가?
 - UINavigationController 의 역할이 무엇인지 설명하시오.
 - TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.
@@ -63,6 +64,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 다크모드를 지원하는 방법에 대해 설명하시오.
 - ViewController의 생명주기를 설명하시오.
 - TableView와 CollectionView의 차이점을 설명하시오.
+- Dynamic Library와 Static Library의 차이점에 대해 설명해보세요.
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
@@ -71,6 +73,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 스토리보드를 이용했을때의 장단점을 설명하시오.
 - Safearea에 대해서 설명하시오.
 - Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
+- Auto Layout과 Frame-based Layout의 차이점은 무엇인가요?
 
 ## Swift
 - struct와 class와 enum의 차이를 설명하시오.
@@ -107,6 +110,10 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Codable에 대하여 설명하시오.
 - Closure에 대하여 설명하시오.
 - Closure와 함수와의 관계에 대해 설명하시오.
+- Optional Chaining과 nil-coalescing operator(??)의 차이점과 사용 시 주의사항은 무엇인가요?
+- Swift에서 Async/Await 기능이 도입되기 전에, 비동기(Asynchronous) 작업을 처리하는 방법에는 어떤 것들이 있나요?
+- 타입 변환(Type Casting)과 다형성(Polymorphism)에 대해 설명해보세요.
+- Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
 
 ## ARC
 - ARC란 무엇인지 설명하시오.
