@@ -128,6 +128,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 함수형 프로그래밍이 무엇인지 설명하시오.
 - 고차 함수가 무엇인지 설명하시오.
 - Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
+- Either type이란?
 
 ## Architecture
 - MVVM, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
