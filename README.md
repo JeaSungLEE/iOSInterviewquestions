@@ -36,10 +36,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 ###
-- NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
-- GCD API 동작 방식과 필요성에 대해 설명하시오.
-- Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
-###
 - iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
 - Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.
 - Delegate란 무엇인지 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.
@@ -144,6 +140,17 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - sink에 대해서 설명하시오
 - throttle과 debounce의 차이점을 설명하시오.
 - Data를 Binding 하는 방법에 대해서 설명하시오.
+
+## Concurrency
+### GCD, NSOperation
+- NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
+- GCD API 동작 방식과 필요성에 대해 설명하시오.
+- Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
+
+### Swift Concurrency
+- @MainActor는 언제 이용하는가?
+- task동작 방식과 gcd, nsoperation과의 차이점을 설명하시오.
+
 
 # Optional
 아래부터는 추가로 공부를 하면 좋을 내용들입니다.
