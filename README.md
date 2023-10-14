@@ -131,7 +131,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 의존성 주입에 대하여 설명하시오.
 
 ## SwiftUI
-- @State에 대해서 설명하시오.
+- @State가 어떻게 동작하는지 설명하시오.
 
 ## Combine
 - PassthroughSubject에 대해서 설명하시오
