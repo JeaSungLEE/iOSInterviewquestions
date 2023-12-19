@@ -33,8 +33,7 @@ iOS 면접 준비와 학습을 돕기 위해 구성된 자료 저장소입니다
 
 ## Core Programming Languages
 ### **Swift**: Advanced features and best practices.
-1. **Swift의 옵셔널 체이닝(Optional Chaining)을 사용할 때 주의해야 할 점은 무엇이며, 어떤 상황에서 사용하는 것이 가장 효과적인가요?**
-    - 옵셔널 체이닝을 사용할 때 발생할 수 있는 성능 문제는 무엇인가요?
+1. **Swift의 옵셔널 체이닝(Optional Chaining)은 어떤 상황에서 사용하는 것이 가장 효과적인가요?**
     - 옵셔널 체이닝과 강제 언래핑(Forced Unwrapping)의 차이점을 어떻게 설명하시겠습니까?
 2. **Swift에서의 메모리 관리 방법(ARC)에 대해 설명하고, 순환 참조(Circular Reference)를 방지하기 위한 전략은 무엇인가요?**
     - 순환 참조를 해결하기 위한 `weak`와 `unowned` 참조의 차이점은 무엇인가요?
