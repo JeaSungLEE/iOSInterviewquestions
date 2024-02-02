@@ -37,6 +37,8 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 
 ## Core Programming Languages
 ### **Swift**: Advanced features and best practices.
+- [https://github.com/apple/swift-evolution/tree/main/proposals] Swift언어가 발전해온 과정을 살펴보시면 정말 많은 도움이 될거라 생각합니다. 꼭 읽어보시길 추천합니다.
+
 1. struct와 class의 주요 차이점은 무엇인가요?
   - struct와 class는 어떤 상황에서 사용하는 것이 적절한가요?
     - struct와 class 간의 성능 차이는 어떠한 원리로 발생하나요?
