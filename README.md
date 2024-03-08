@@ -45,7 +45,7 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 > 레벨 5: 7년차 이상
 
 ## 레벨 0 
-> 아래 내용이 어려우시다면 2020년이후 개정이된 [정보처리기사](https://namu.wiki/w/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/%EC%8B%9C%ED%97%98/2020%EB%85%84%20%EA%B0%9C%EC%A0%95)를 공부하시는것을 추천합니다.
+> 아래 내용이 어려우시다면 2020년이후 개정 된 [정보처리기사](https://namu.wiki/w/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/%EC%8B%9C%ED%97%98/2020%EB%85%84%20%EA%B0%9C%EC%A0%95)를 공부하시는것을 추천합니다.
 1. 컴퓨터 구조와 관련하여 CPU, RAM, 저장장치의 역할과 상호 작용에 대해 설명해주세요.
     - 캐시 메모리의 개념과 종류, 역할에 대해 설명해주세요.
     - CPU 아키텍처의 종류(예: ARM, x86)와 특징에 대해 설명해주세요.
@@ -474,28 +474,24 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
    - Vision 요청(VNRequest)의 종류와 사용 방법, 결과 처리 과정을 설명해주세요.
    - Vision 프레임워크와 Core ML, ARKit 등 다른 프레임워크와의 연동 방법을 소개해주세요.
 
-7. Swift의 property wrappers와 function builders에 대해 설명해주세요.
+7. Swift의 property wrappers에 대해 설명해주세요.
    - property wrappers의 동작 원리와 사용 목적, 구현 방법을 설명해주세요.
-   - function builders의 개념과 DSL(Domain-Specific Language) 구현 방법을 예시와 함께 설명해주세요.
-   - property wrappers와 function builders를 활용한 코드 추상화 및 재사용성 향상 방안을 제안해주세요.
 
 8. iOS 앱의 보안을 강화하기 위한 방법과 모범 사례에 대해 설명해주세요.
    - 안전한 데이터 저장 및 전송을 위한 암호화 기술(AES, RSA 등)과 구현 방법을 설명해주세요.
    - 앱 바이너리 보호, 탈옥 감지, 동적 라이브러리 감지 등의 보안 대책을 소개해주세요.
    - 코드 난독화, 런타임 무결성 검사 등 추가적인 보안 강화 방안을 제안해주세요.
 
-9. Swift의 result builders와 custom string interpolation에 대해 설명해주세요.
-   - result builders의 동작 원리와 사용 목적, 구현 방법을 설명해주세요.
+9. Swift의 custom string interpolation에 대해 설명해주세요.
    - custom string interpolation을 사용하여 문자열 보간법을 확장하는 방법을 예시와 함께 설명해주세요.
-   - result builders와 custom string interpolation을 활용한 도메인 특화 언어(DSL) 설계 방안을 제안해주세요.
 
 10. Swift의 Distributed Actor에 대해 설명해주세요.
-     - Distributed Actor의 개념과 사용 목적을 설명해주세요.
+    - Distributed Actor의 개념과 사용 목적을 설명해주세요.
     - 분산 시스템에서 Distributed Actor를 활용한 통신 및 상태 동기화 방법을 예시와 함께 설명해주세요.
 
 11. Swift의 DSL(Domain-Specific Language) 설계 및 구현 방법에 대해 설명해주세요.
     - DSL의 개념과 장점, Swift에서의 구현 방식을 설명해주세요.
-    - result builders와 function builders를 활용한 DSL 설계 사례를 소개해주세요.
+    - result builder를 활용한 DSL 설계 사례를 소개해주세요.
 
 12. Swift의 유연한 문법 기능(e.g., 오퍼레이터 오버로딩, 첨자 표기법)을 활용한 코드 설계 방법에 대해 설명해주세요.
     - 오퍼레이터 오버로딩을 사용하여 사용자 정의 타입에 대한 연산을 직관적으로 표현하는 방법을 예시와 함께 설명해주세요.
