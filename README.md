@@ -25,7 +25,7 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 
 - [Xcode](https://developer.apple.com/documentation/xcode/)
 - [Autolayout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html)
-- [Human Interface Guidelines (HIG)](https://developer.apple.com/design/human-interface-guidelines/)
+- [Human Interface Guidelines (HIG)](https://developer.apple.com/kr/design/human-interface-guidelines/)
 - [Swift Package Manager (SPM)](https://developer.apple.com/documentation/xcode/swift-packages)
 - [Local & Push Notification](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/index.html)
 - [View, Window Guide](https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/Introduction/Introduction.html)
