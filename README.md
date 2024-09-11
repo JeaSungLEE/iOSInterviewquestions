@@ -8,7 +8,7 @@ iOS 면접 준비와 학습을 돕기 위해 구성된 자료 저장소입니다
 
 우선, 기초 지식의 확립이 중요하므로, 면접 질문 학습에 앞서 다음과 같은 권장 학습 자료들을 확인하시길 바랍니다:
 
-1. [CS50](https://www.edwith.org/cs50) - 필수적인 컴퓨터 과학 기초 지식을 배울 수 있는 강좌입니다. (챕터5까지)
+1. [CS50](https://www.boostcourse.org/cs112) - 필수적인 컴퓨터 과학 기초 지식을 배울 수 있는 강좌입니다.
 2. [모두를 위한 컴퓨터 과학](https://www.boostcourse.org/cs112/joinLectures/41307) - 자료구조와 알고리즘등 필수적인 개념을 알려주는 강좌입니다.
 3. [Swift 한국어](https://bbiguduk.gitbook.io/swift/) - Swift 언어에 대한 종합적인 이해를 돕는 자료입니다.
 4. [ProGit](https://git-scm.com/book/ko/v2) - Git의 기본 사용법과 원리를 학습할 수 있는 자료입니다.
