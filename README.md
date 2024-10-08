@@ -275,8 +275,6 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
     - 글로벌 큐(Global Queue)와 메인 큐(Main Queue)는 어떻게 다르나요?
     - DispatchWorkItem을 사용하는 방법은 무엇인가요?
 
-----
-
 ## 레벨 2
 
 1. Swift의 동시성(Concurrency) 프로그래밍에 대해 설명해주세요.
