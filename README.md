@@ -90,19 +90,31 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 11. **HTTP와 HTTPS의 차이점, 그리고 iOS에서의 보안 통신 방법에 대해 설명해주세요.**
     - SSL/TLS의 동작 원리는 무엇인가요?
 
-12. **TCP와 UDP의 차이점에 대해서 설명해주세요.**
+12. **컴퓨터 네트워킹에서 OSI 7계층 모델에 대해 설명해주세요.**
+    - 각 계층의 역할과 프로토콜은 무엇인가요?
+    - TCP/IP 모델과 OSI 모델의 차이점은 무엇인가요?
 
-13. **소켓 통신에 대해 설명해주세요.**
+13. **HTTP 프로토콜의 특징과 HTTP/1.1과 HTTP/2의 차이점을 설명해주세요.**
+    - HTTP의 무상태(Stateless) 성질은 무엇이며, 어떻게 극복하나요?
+    - HTTP/2에서 추가된 주요 기능은 무엇인가요?
+    - HTTP/3에서 추가된 기능은 무엇인가요?
 
-14. **REST API와 iOS에서의 네트워크 요청 및 응답 처리 방법에 대해 설명해주세요.**
+14. **TCP와 UDP의 특징과 차이점에 대해 설명해주세요.**
+    - 연결 지향형 프로토콜과 비연결 지향형 프로토콜은 무엇인가요?
+    - TCP의 3-way handshake 과정은 어떻게 이루어지나요?
+    - 어떤 상황에서 UDP를 사용하는 것이 적합한가요?
+
+15. **소켓 통신에 대해 설명해주세요.**
+
+16. **REST API와 iOS에서의 네트워크 요청 및 응답 처리 방법에 대해 설명해주세요.**
     - iOS에서 `URLSession`을 사용하여 네트워크 요청을 보내는 방법은 무엇인가요?
 
-15. **REST API에서 HTTP 메서드들의 차이점을 설명해주세요.**
+17. **REST API에서 HTTP 메서드들의 차이점을 설명해주세요.**
     - `GET`과 `POST`의 차이점은 무엇인가요?
 
-16. **HTTP 상태 코드에 대해서 설명해주세요.**
+18. **HTTP 상태 코드에 대해서 설명해주세요.**
 
-17. **iOS에서 이미지 파일 포맷(PNG, JPEG 등)과 각 포맷의 특징에 대해 설명해주세요.**
+19. **iOS에서 이미지 파일 포맷(PNG, JPEG 등)과 각 포맷의 특징에 대해 설명해주세요.**
     - PNG와 JPEG의 차이점은 무엇인가요?
 
 18. **PNG 파일이 어떻게 저장되고 구성되는지 설명해주세요.**
@@ -128,143 +140,142 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 
 27. **해시 테이블의 개념과 충돌 해결 방법을 설명해주세요.**
 
-28. **동시성 프로그래밍의 개념과 iOS에서의 동시성 처리 방식에 대해 설명해주세요.**
-    - iOS에서의 동시성 처리를 위한 주요 도구는 무엇인가요?
-
 29. **암호화와 보안의 기본 개념, 그리고 iOS 앱 보안을 위한 방안에 대해 설명해주세요.**
 
 30. **가상 메모리(Virtual Memory)의 개념과 동작 원리에 대해 설명해주세요.**
 
-31. **iOS 앱의 메모리 사용량 최적화를 위한 방안과 고려 사항에 대해 설명해주세요.**
-
 32. **데이터베이스의 종류와 iOS에서 주로 사용되는 데이터베이스에 대해 설명해주세요.**
 
-33. **iOS에서 자동 참조 카운팅(ARC)과 가비지 컬렉션(Garbage Collection)의 차이점에 대해 설명해주세요.**
+33. **싱글톤 패턴(Singleton Pattern)이란 무엇이며, 어떤 경우에 사용하나요?**
 
-34. **싱글톤 패턴(Singleton Pattern)이란 무엇이며, 어떤 경우에 사용하나요?**
-
-35. **Swift에서 싱글톤 패턴을 구현할 때 멀티스레드에 대해서 어떻게 고려해야 하나요?**
+34. **Swift에서 싱글톤 패턴을 구현할 때 멀티스레드에 대해서 어떻게 고려해야 하나요?**
   
 ## 레벨 1
 
-1. Swift에서 옵셔널이란 무엇이며, 언제 사용해야 하나요?
+1. **Swift에서 옵셔널(Optional)이란 무엇이며, 언제 사용해야 하나요?**
+   - 옵셔널 바인딩과 강제 언래핑의 차이점은 무엇인가요?
+   - 옵셔널 체이닝의 동작 원리는 무엇이며, 어떻게 사용하나요?
+   - 암시적 언래핑 옵셔널(Implicitly Unwrapped Optional)은 어떤 경우에 사용해야 하나요?
 
-- 옵셔널 바인딩과 강제 언래핑의 차이점은 무엇인가요?
-- 옵셔널 체이닝의 동작 원리를 설명해주세요.
-- 암시적 언래핑 옵셔널을 사용하는 경우는 언제인가요?
-- nil 병합 연산자(??)의 사용 예시를 들어주세요.
+2. **iOS 앱의 생명주기(App Life Cycle)에 대해 설명해주세요.**
+   - 앱의 각 상태(`Not Running`, `Inactive`, `Active`, `Background`, `Suspended`)에서 가능한 작업은 무엇인가요?
+   - 상태 변화에 따라 호출되는 `AppDelegate` 또는 `SceneDelegate` 메서드는 무엇인가요?
+   - 백그라운드에서 작업을 완료하기 위한 방법은 어떤 것이 있나요?
 
-2. iOS 앱의 생명주기(App Life Cycle)에 대해 설명해주세요.
+3. **Auto Layout을 사용하는 이유와 장점은 무엇인가요?**
+   - 제약 조건(Constraints)의 우선순위(Priority)는 어떻게 동작하나요?
+   - Intrinsic Content Size란 무엇이며, 어떻게 활용되나요?
+   - Ambiguous Layout과 Unsatisfiable Constraints는 무엇이며, 어떻게 해결하나요?
 
-- 앱의 각 상태(Not Running, Inactive, Active, Background, Suspended)에서 할 수 있는 작업은 무엇인가요?
-- 앱 상태 변화에 따라 호출되는 AppDelegate 메서드들을 나열해주세요.
-- 백그라운드에서 작업을 완료하기 위한 방법들은 무엇이 있나요?
+4. **Swift에서 클로저(Closure)란 무엇이며, 어떻게 사용하나요?**
+   - 클로저의 캡처(Capture) 기능은 무엇인가요?
+   - @escaping 클로저와 non-escaping 클로저의 차이점은 무엇인가요?
+   - 트레일링 클로저(Trailing Closure) 문법은 어떤 경우에 유용한가요?
 
-3. Storyboard와 XIB의 차이점은 무엇인가요?
+5. **iOS에서 Delegate 패턴은 무엇이며, 어떤 상황에서 사용되나요?**
+   - Delegate 패턴과 Notification, KVO의 차이점은 무엇인가요?
+   - 프로토콜을 활용한 Delegate 패턴 구현 방법을 설명해주세요.
 
-- Storyboard에서 세그(Segue)를 사용하는 이유는 무엇인가요?
-- Storyboard 참조(Storyboard Reference)의 장점은 무엇인가요?
+6. **Swift의 기본 데이터 타입과 컬렉션(Collection) 타입에는 어떤 것들이 있나요?**
+   - 값 타입(Value Type)과 참조 타입(Reference Type)의 차이점은 무엇인가요?
+   - 구조체(Struct)와 클래스(Class)의 사용 시기는 어떻게 구분하나요?
+   - 열거형(Enum)의 원시값(Raw Value)과 연관값(Associated Value)은 무엇인가요?
 
-4. 뷰를 구현할때 Storyboard와 Code로 구현하는 각각의 장단점은 무엇인가요?
+7. **Xcode에서 디버깅 시 자주 사용하는 기능은 무엇인가요?**
+   - 중단점(Breakpoint)의 종류와 활용 방법을 설명해주세요.
+   - LLDB 콘솔에서 유용한 명령어는 어떤 것이 있나요?
 
-- 선호하는 방식이 있다면 무엇이고 왜 더 선호하나요?
+8. **iOS 앱에서 데이터를 저장하는 방법에는 어떤 것들이 있나요?**
+   - `UserDefaults`의 사용 시 주의할 점은 무엇인가요?
+   - Keychain은 어떤 데이터를 저장하기에 적합한가요?
+   - Core Data와 SQLite의 차이점은 무엇이며, 각각 언제 사용하면 좋나요?
 
-5. Auto Layout을 사용하는 이유와 장점은 무엇인가요?
+9. **Swift에서 프로토콜(Protocol)이란 무엇이며, 어떻게 활용하나요?**
+   - 프로토콜의 요구사항은 무엇인가요?
+   - 프로토콜 확장(Protocol Extension)을 사용하는 이유는 무엇인가요?
+   - 프로토콜 지향 프로그래밍(Protocol-Oriented Programming)의 장점은 무엇인가요?
 
-- 제약 조건(Constraints)의 우선순위(Priority)는 어떤 역할을 하나요?
-- 스택 뷰(Stack View)의 속성들을 설명해주세요.
-- 인터페이스 빌더에서 제약 조건 충돌을 해결하는 방법은 무엇인가요?
+10. **Swift의 접근 제어자(Access Control Levels)에 대해 설명해주세요.**
+    - `open`과 `public`의 차이점은 무엇인가요?
+    - `internal`, `fileprivate`, `private`의 사용 시기는 어떻게 결정하나요?
+    - 접근 제어자를 사용하는 이유는 무엇인가요?
 
-6. Swift에서 클로저(Closure)란 무엇이며, 어떻게 사용하나요?
+11. **iOS 앱에서 네트워크 통신을 하는 방법에는 어떤 것들이 있나요?**
+    - `URLSession`의 기본 사용 방법을 설명해주세요.
+    - 네트워크 요청 시 에러 처리는 어떻게 하나요?
+    - 서드파티 라이브러리(예: Alamofire)를 사용하는 이유는 무엇인가요?
 
-- 클로저의 캡처 리스트(Capture List)는 어떤 역할을 하나요?
-- @escaping 클로저와 non-escaping 클로저의 차이점은 무엇인가요?
-- 트레일링 클로저(Trailing Closure) 문법은 언제 사용하면 좋나요?
+12. **의존성 관리 도구(CocoaPods, Carthage, Swift Package Manager)의 종류와 차이점은 무엇인가요?**
+    - 각 도구의 사용 방법과 장단점을 설명해주세요.
+    - 의존성 관리를 통해 얻을 수 있는 이점은 무엇인가요?
 
-7. iOS에서 델리게이트 패턴(Delegate Pattern)은 어떤 목적으로 사용되나요?
+13. **Swift의 고차 함수(Higher-Order Functions)에 대해 설명해주세요.**
+    - `map`과 `flatMap`의 차이점은 무엇인가요?
+    - `filter`, `reduce` 함수는 어떤 경우에 사용하나요?
+    - `compactMap`은 어떤 역할을 하나요?
 
-- 델리게이트 패턴과 콜백 함수의 차이점은 무엇인가요?
-- 델리게이트 패턴과 옵저버 패턴의 차이점은 무엇이고 각각 어떨때 사용하면 좋나요?
-- 델리게이트 메서드에서 반환값을 사용하는 경우는 언제인가요?
+14. **Git에서 브랜치(Branch)를 사용하는 이유와 장점은 무엇인가요?**
+    - 브랜치를 병합(Merge)하는 방법에는 어떤 것들이 있나요?
+    - 브랜치 전략(예: Git Flow, GitHub Flow)에 대해 설명해주세요.
+    - 충돌(Conflict)이 발생했을 때 해결 방법은 무엇인가요?
 
-8. Swift의 기본 데이터 타입에는 어떤 것들이 있나요?
+15. **Swift의 에러 처리 방법에 대해 설명해주세요.**
+    - `throws`, `try`, `catch` 키워드의 사용 방법은 무엇인가요?
+    - 옵셔널을 사용한 에러 처리와 `do-catch`를 사용하는 에러 처리의 차이는 무엇인가요?
+    - 에러를 전파하는 방법은 무엇인가요?
 
-- 값 타입(Value Type)과 참조 타입(Reference Type)의 차이점을 설명해주세요.
-- 구조체(Struct)와 클래스(Class)는 어떤 차이가 있나요?
-- 열거형(Enum)의 원시값(Raw Value)과 연관값(Associated Value)은 무엇인가요?
+16. **메모리 관리에서 강한 참조(Strong Reference)와 약한 참조(Weak Reference)의 차이점은 무엇인가요?**
+    - 순환 참조(Retain Cycle)가 발생하는 경우와 해결 방법은 무엇인가요?
+    - 클로저에서 `[weak self]`와 `[unowned self]`의 차이는 무엇인가요?
 
-9. Xcode에서 디버깅 시 자주 사용하는 기능들은 무엇이 있나요?
+17. **iOS 앱에서 Multi-threading을 구현하는 방법은 무엇인가요?**
+    - `DispatchQueue`와 `OperationQueue`의 차이점은 무엇인가요?
+    - 동시성 프로그래밍에서 Race Condition을 방지하는 방법은 무엇인가요?
+    - 메인 스레드에서 UI 업데이트를 해야 하는 이유는 무엇인가요?
 
-- 중단점(Breakpoint)의 종류와 사용 방법을 설명해주세요.
-- LLDB 콘솔에서 자주 사용하는 명령어는 무엇인가요?
-- 조건부 중단점(Conditional Breakpoint)은 어떤 경우에 사용하면 좋나요?
+18. **UIKit에서 TableView와 CollectionView의 차이점은 무엇인가요?**
+    - 셀(Cell)의 재사용(Reusability)은 어떻게 구현되나요?
+    - 동적인 셀 높이(Dynamic Cell Height)를 설정하는 방법은 무엇인가요?
+    - CollectionView의 레이아웃을 커스터마이징하는 방법은 무엇인가요?
 
-10. iOS 앱에서 데이터를 저장하는 방법에는 어떤 것들이 있나요?
+19. **ARC(Automatic Reference Counting)의 동작 원리는 무엇인가요?**
+    - Retain Cycle이 발생하지 않도록 방지하는 방법은 무엇인가요?
+    - `deinit` 메서드는 언제 호출되며, 어떤 역할을 하나요?
 
-- UserDefaults의 사용 예시와 주의 사항을 설명해주세요.
-- Keychain은 어떤 데이터를 저장하는 데 적합한가요?
-- Core Data와 SQLite의 차이점은 무엇인가요?
+20. **상속(Inheritance)과 프로토콜(Protocol)의 차이점은 무엇인가요?**
+    - 클래스 상속을 사용할 때의 장단점은 무엇인가요?
+    - 다중 상속(Multiple Inheritance)이 불가능한 이유는 무엇인가요?
+    - 프로토콜 준수(Conformance)를 통해 다형성을 구현하는 방법은 무엇인가요?
 
-11. Swift에서 프로토콜(Protocol)이란 무엇이며, 어떻게 사용하나요?
+21. **사용자 인터페이스(UI) 테스트와 단위(Unit) 테스트의 차이점은 무엇인가요?**
+    - XCTest 프레임워크를 사용하여 테스트를 작성하는 방법은 무엇인가요?
+    - 테스트 주도 개발(TDD)의 장점은 무엇인가요?
+    - 의존성 주입(Dependency Injection)을 활용하여 테스트 가능한 코드를 작성하는 방법은 무엇인가요?
 
-- 프로토콜의 요구 사항에는 어떤 것들이 있나요?
-- 프로토콜 확장(Protocol Extension)을 사용하는 이유는 무엇인가요?
-- 프로토콜 지향 프로그래밍(Protocol-Oriented Programming)의 장점은 무엇인가요?
+22. **Xcode에서 Instruments를 사용하여 앱의 성능을 분석하는 방법은 무엇인가요?**
+    - Time Profiler를 사용하여 성능 이슈를 찾는 방법을 설명해주세요.
+    - Allocations Instrument를 사용하여 메모리 누수를 탐지하는 방법은 무엇인가요?
+    - Leaks Instrument를 사용하여 메모리 누수를 찾는 방법은 무엇인가요?
 
-12. Swift의 접근 제어자(Access Control)에 대해 설명해주세요.
+23. **Swift의 제네릭(Generic)에 대해 설명해주세요.**
+    - 제네릭을 사용하는 이유는 무엇인가요?
+    - 제네릭 타입 파라미터와 제약 조건을 설정하는 방법은 무엇인가요?
+    - 제네릭을 사용할 때의 장점과 주의할 점은 무엇인가요?
 
-- open과 public의 차이점은 무엇인가요?
-- 접근 제어자를 사용하는 이유는 무엇인가요?
-- 상속과 관련된 접근 제어자는 무엇이 있나요?
+24. **Swift의 클로저와 함수의 차이점은 무엇인가요?**
+    - 클로저가 일급 객체(First-Class Citizen)인 이유는 무엇인가요?
+    - 함수형 프로그래밍 패러다임에서 클로저가 어떻게 활용되나요?
 
-13. iOS 앱에서 네트워크 통신을 하는 방법에는 어떤 것들이 있나요?
+25. **동시성 프로그래밍에서 동기(Synchronous)와 비동기(Asynchronous)의 차이점은 무엇인가요?**
+    - iOS에서 비동기 작업을 처리하는 방법은 무엇인가요?
+    - 세마포어(Semaphore)와 뮤텍스(Mutex)의 차이점은 무엇인가요?
 
-- URLSession의 주요 구성 요소를 설명해주세요.
-- 네트워크 요청 시 에러 처리는 어떻게 하나요?
-- Alamofire와 같은 서드파티 라이브러리를 사용하는 이유는 무엇인가요?
+26. **GCD(Grand Central Dispatch)의 주요 개념과 사용 방법을 설명해주세요.**
+    - 직렬(Serial) 큐와 동시(Concurrent) 큐의 차이는 무엇인가요?
+    - 글로벌 큐(Global Queue)와 메인 큐(Main Queue)는 어떻게 다르나요?
+    - DispatchWorkItem을 사용하는 방법은 무엇인가요?
 
-14. Swift의 옵셔널과 관련된 함수에는 어떤 것들이 있나요?
-
-- map()과 flatMap()의 차이점을 설명해주세요.
-- compactMap()은 어떤 경우에 사용하나요?
-- 옵셔널 체이닝을 사용할 때 주의할 점은 무엇인가요?
-
-15. Git에서 브랜치(Branch)를 사용하는 이유와 장점은 무엇인가요?
-
-- 브랜치를 병합(Merge)하는 방법에는 어떤 것들이 있나요?
-- 브랜치 전략(Git-Flow, GitHub-Flow 등)에 대해 설명해주세요.
-- 브랜치 충돌(Conflict) 해결 방법을 설명해주세요.
-
-16. iOS 앱에서 코어 데이터(Core Data)를 사용하는 이유는 무엇인가요?
-
-- 코어 데이터의 주요 구성 요소(Entity, Attribute, Relationship 등)를 설명해주세요.
-- 코어 데이터에서 데이터를 가져오는 방법(Fetch Request)에 대해 설명해주세요.
-- 코어 데이터 마이그레이션(Migration)은 언제 필요한가요?
-
-17. Swift의 high-order functions에 대해 설명해주세요.
-
-- map()과 compactMap()의 차이점은 무엇인가요?
-- filter()와 reduce()는 어떤 경우에 사용하나요?
-- flatMap()을 사용하는 경우를 예시로 들어주세요.
-
-18. Xcode에서 유용한 단축키와 생산성을 높이는 팁에 대해 설명해주세요.
-
-19. iOS 개발을 위한 라이브러리 관리 도구(CocoaPods, Carthage, Swift Package Manager)의 차이점과 사용법을 설명해주세요.
-
-- 각 도구의 장단점은 무엇인가요?
-
-20. iOS 앱에서 URL Scheme을 사용하여 다른 앱과 통신하는 방법과 주의 사항을 설명해주세요.
-
-21. Xcode의 인스트루먼트(Instruments)를 활용하여 앱의 성능을 분석하고 최적화하는 방법은 무엇인가요?
-
-- Xcode의 디버깅 도구(Breakpoints, Logging 등)를 활용하여 효과적으로 디버깅하는 방법을 소개해주세요.
-- 타임 프로파일러(Time Profiler)를 사용하여 앱의 병목 현상을 찾는 방법을 설명해주세요.
-- 얼로케이션 프로파일러(Allocations Profiler)를 사용하여 메모리 사용량을 분석하는 방법은 무엇인가요?
-- 레이아웃 디버깅(Layout Debugging)을 통해 오토레이아웃 문제를 해결하는 방법을 설명해주세요.
-
-22. Swift에서 Any와 AnyObject의 차이점은 무엇인가요?
-
-23. iOS 앱에서 NotificationCenter를 사용하는 목적과 사용 방법을 설명해주세요.
+----
 
 ## 레벨 2
 
